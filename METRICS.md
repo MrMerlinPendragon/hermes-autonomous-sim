@@ -8,7 +8,7 @@
 | Tasks Completed | 5 | README (CYCLE-005) + hygiene (CYCLE-006) + ingestion design+impl (CYCLE-007-008) |
 | Tasks Failed | 0 | — |
 | Avg Cycle Duration (min) | N/A | First cycle pending |
-| Git Commits | 24 | Reflects actual repo history after sync |
+| Git Commits | 26 | Reflects actual repo history after sync |
 | Experiments Run | 0 | — |
 | Experiments Successful | 0 | — |
 | Decision Accuracy % | 100.0% | 8 decisions tracked; 6 with explicit outcomes |
