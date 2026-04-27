@@ -46,3 +46,13 @@
 - **Outcome:** SUCCESS — .gitignore expanded by 14 lines; METRICS.md synced; all tests pass; ready to commit.
 
 ---
+
+- **D-2026-04-27-06 — Task Ingestion CLI**
+
+- **Date:** 2026-04-27
+- **Context:** MEDIUM priority backlog empty on tooling; task ingestion pipeline identified as next capability gap.
+- **Decision:** Implement first concrete step — create scripts/add_task.py CLI utility to add tasks to TASK_QUEUE.md with priority handling.
+- **Alternatives:** (a) Design full ingestion pipeline spec (too large for one tick), (b) Start decision accountability framework (different MEDIUM), (c) Pick failure recovery (different MEDIUM).
+- **Rationale:** Adds immediate, actionable infrastructure while remaining scoped to a single tick. Establishes pattern for future automated task sources (email, RSS, LLM suggestions).
+- **Outcome:** SUCCESS — add_task.py created, validated, TASK_QUEUE.md updated, metrics synced.
+

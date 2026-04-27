@@ -4,11 +4,11 @@
 
 | Metric | Current | Notes |
 |--------|---------|-------|
-| Cycles Completed | 6 | Six cycles completed; documentation baseline established |
-| Tasks Completed | 2 | README (CYCLE-005) + hygiene (CYCLE-006) |
+| Cycles Completed | 7 | Six cycles completed; documentation baseline established |
+| Tasks Completed | 3 | README (CYCLE-005) + hygiene (CYCLE-006) |
 | Tasks Failed | 0 | — |
 | Avg Cycle Duration (min) | N/A | First cycle pending |
-| Git Commits | 17 | Reflects actual repo history after sync |
+| Git Commits | 18 | Reflects actual repo history after sync |
 | Experiments Run | 0 | — |
 | Experiments Successful | 0 | — |
 | Decision Accuracy % | N/A | No decisions assessed yet |

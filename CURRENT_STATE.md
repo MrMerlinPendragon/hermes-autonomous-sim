@@ -76,6 +76,19 @@ Git push to origin blocked because target org repo `nous-research/hermes-autonom
 
 ---
 
+
+## CYCLE-007 (completed 2026-04-27 12:40:00)
+
+- **Task:** Task ingestion pipeline — add utility script for programmatic task creation
+- **Artifacts:** scripts/add_task.py (CLI utility with priority handling, proper TASK_QUEUE.md insertion)
+- **Sub-task completed:** Design task schema for ingestion pipeline — added as MEDIUM priority task
+- **Metrics delta:** Cycles Completed 6 → 7, Tasks Completed 2 → 3, Git Commits synchronized 17 → 18
+- **Validation:** Script tested successfully; all 8 unit tests pass; pre-commit hook green
+- **Commit:** PENDING (this cycle)
+- **Status:** SUCCESS
+
+---
+
 ## Decisions
 
 D-2026-04-27-01: Use ~/autonomous-sim — RESOLVED (SUCCESS)
