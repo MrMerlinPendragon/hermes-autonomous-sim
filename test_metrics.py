@@ -14,7 +14,7 @@ CORE_KPIS = [
     ("Git Commits",             r"\| Git Commits \| ([0-9N/A]+) \|"),
     ("Experiments Run",         r"\| Experiments Run \| ([0-9N/A]+) \|"),
     ("Experiments Successful",  r"\| Experiments Successful \| ([0-9N/A]+) \|"),
-    ("Decision Accuracy %",     r"\| Decision Accuracy % \| ([0-9N/A]+) \|"),
+    ("Decision Accuracy %",     r"\| Decision Accuracy % \| ([0-9.]+%|N/A) \|"),
 ]
 
 DERIVED = [("Success Rate", r"\| Success Rate \| ([0-9.]+%|N/A) \|")]
@@ -45,7 +45,11 @@ def t(name, fn):
 def test_regex_matches_template():
     content = METRICS_FILE.read_text()
     for label, _ in CORE_KPIS:
-        pat = rf"\| {escaped_label(label)} \| [0-9N/A]+ \|"
+        if label == "Decision Accuracy %":
+            val_pat = r"[0-9.]+%|N/A"
+        else:
+            val_pat = r"[0-9N/A]+"
+        pat = rf"\| {escaped_label(label)} \| {val_pat} \|"
         assert re.search(pat, content), f"no match: {label}"
 t("Regex patterns match METRICS.md rows", test_regex_matches_template)
 
