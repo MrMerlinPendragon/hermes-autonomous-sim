@@ -1,0 +1,67 @@
+# Genesis Garden — .gitignore
+
+# Python / virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+
+# OS / editor junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and caches
+*.log
+logs/
+.cache/
+.hermes/
+
+# SSH keys (never commit private keys)
+*.pem
+*.key
+id_ed25519
+id_rsa
+*.pub
+
+# Temporary and build artifacts
+tmp/
+temp/
+*.tmp
+*.bak
+build/
+dist/
+*.egg-info/
+
+# Project-specific
+REPORTS/*.md  # Will be replaced by actual cycle logs via automation
+# Note: cycle-*.md files are tracked, temp draft files are ignored
+cycle-*.md?  # Incomplete cycle reports (e.g. editor temp files)
+
+# Agentry-specific artifacts (future)
+agents/
+swarm/
+world/
+sim/
