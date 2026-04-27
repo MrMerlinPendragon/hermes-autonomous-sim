@@ -26,7 +26,7 @@
 ## LOW PRIORITY / MAINTENANCE
 
 - [x] Write README.md (project overview, quickstart, structure) — CYCLE-005 COMPLETED
-- [ ] Repository hygiene (expand .gitignore if needed)
+- [x] Repository hygiene (expand .gitignore if needed) — CYCLE-006 COMPLETED
 - [ ] Observability enhancements
 
 ## BACKLOG

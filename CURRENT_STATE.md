@@ -16,7 +16,7 @@
 | Task Queue | OK | High-priority remote-create DONE; workflow unblocked |
 | Decision Log | OK | 3 entries, latest D-2026-04-27-03 |
 | Experiment Log | OK | No experiments yet |
-| Metrics | OK | metrics.py collector + tests working; 4 cycles tracked |
+| Metrics | OK | metrics.py collector + tests working; 6 cycles tracked |
 | Reports | OK | 4 cycle reports |
 
 ---
@@ -86,10 +86,10 @@ D-2026-04-27-03: Remote repo namespace adapted (org unreachable → personal nam
 
 ## Notes
 
-- Five cycles completed. Documentation baseline established.
+- Six cycles completed. Documentation baseline established.
 - Pre-commit hook working; all commits validated on push.
 - metrics.py verified in production; Git Commits auto-sync validated.
-- Next navigation: task ingestion pipeline or failure recovery protocol (both MEDIUM) — README baseline established.
+- Next navigation: task ingestion pipeline or failure recovery protocol (both MEDIUM) — hygiene baseline established.
 
 ## CYCLE-005 (completed 2026-04-27 09:40:00)
 
@@ -98,6 +98,17 @@ D-2026-04-27-03: Remote repo namespace adapted (org unreachable → personal nam
 - **Metrics delta:** Cycles Completed 4 → 5
 - **Validation:** File present, well-formed markdown; consistent with project conventions
 - **Commit:** d8f301f (README) + 5752c6e (metrics sync)
+- **Status:** SUCCESS
+
+---
+
+## CYCLE-006 (completed 2026-04-27 08:00:09)
+
+- **Task:** Repository hygiene — expand .gitignore with secrets, coverage, mypy patterns
+- **Artifacts:** .gitignore (+14 lines: .env/*.env patterns; htmlcov/, coverage.xml; .mypy_cache/)
+- **Metrics delta:** Cycles Completed 5→6, Tasks Completed 1→2, Git Commits synced 12→15
+- **Validation:** All 8 unit tests pass; pre-commit hook passes; git status clean
+- **Commit:** PENDING
 - **Status:** SUCCESS
 
 ---

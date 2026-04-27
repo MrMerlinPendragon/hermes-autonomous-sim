@@ -36,3 +36,13 @@
 - **Alternatives:** (a) Start "Create task ingestion pipeline" (MEDIUM — higher complexity), (b) Start "Build failure recovery protocol" (MEDIUM — robustness focus), (c) Defer to later phase and pick README (LOW — documentation baseline first)
 - **Rationale:** README provides immediate value for anyone inspecting the project (human reviewers, future agents). It is self-contained, well-scoped, and low-risk — suitable for fast tick progress while medium items require deeper design. Establishing documentation baseline early aligns with phase-gated evidence requirements.
 - **Outcome:** SUCCESS — README.md written (168 lines), covers project overview, quickstart, structure, metrics, cycle process, governance. Task marked DONE in TASK_QUEUE. Cycle 5 completed.
+### D-2026-04-27-05 — Repository Hygiene Baseline
+
+- **Date:** 2026-04-27
+- **Context:** Post-CYCLE-005 baseline established; HIGH and LOW/MAINTENANCE priorities aligned. Repository hygiene identified as scoped maintenance item with immediate security and cleanliness value.
+- **Decision:** Execute "Repository hygiene (expand .gitignore if needed)" as CYCLE-006 task.
+- **Alternatives:** (a) Start "Create task ingestion pipeline" (MEDIUM — requires design docs), (b) Start "Build failure recovery protocol" (MEDIUM — robustness work), (c) Defer hygiene and pick observability enhancement (LOW — lower urgency)
+- **Rationale:** Hygiene is self-contained, low-risk, high-value for long-term project health. Adds secrets protection (.env patterns), coverage report ignores (htmlcov/, coverage.xml), and type-check cache (.mypy_cache/). Fast tick progress while MEDIUM items mature.
+- **Outcome:** SUCCESS — .gitignore expanded by 14 lines; METRICS.md synced; all tests pass; ready to commit.
+
+---

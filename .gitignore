@@ -65,3 +65,17 @@ agents/
 swarm/
 world/
 sim/
+
+# Environment variables (secrets) — never commit
+.env
+*.env
+.env.local
+.env.*.local
+
+# Pytest coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Type checking cache
+.mypy_cache/
