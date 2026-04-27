@@ -14,9 +14,9 @@
 | Workspace | OK | /home/creker/autonomous-sim |
 | Git Remote | OK | origin → MrMerlinPendragon/hermes-autonomous-sim (resolved) |
 | Task Queue | OK | High-priority remote-create DONE; workflow unblocked |
-| Decision Log | OK | 3 entries, latest D-2026-04-27-03 |
+| Decision Log | OK | 8 entries, latest D-2026-04-27-08 |
 | Experiment Log | OK | No experiments yet |
-| Metrics | OK | metrics.py collector + tests working; 6 cycles tracked |
+| Metrics | OK | metrics.py collector + tests working; 8 cycles tracked |
 | Reports | OK | 4 cycle reports |
 
 ---
@@ -112,7 +112,7 @@ D-2026-04-27-03: Remote repo namespace adapted (org unreachable → personal nam
 
 ## Notes
 
-- Six cycles completed. Documentation baseline established.
+- Eight cycles completed. Documentation baseline established.
 - Pre-commit hook working; all commits validated on push.
 - metrics.py verified in production; Git Commits auto-sync validated.
 - Next navigation: task ingestion pipeline or failure recovery protocol (both MEDIUM) — hygiene baseline established.
