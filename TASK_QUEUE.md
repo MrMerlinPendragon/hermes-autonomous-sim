@@ -2,22 +2,20 @@
 
 ## HIGH PRIORITY
 
-- [ ] Bootstrap project infrastructure
-  - Create core state files (CURRENT_STATE, DECISION_LOG, EXPERIMENT_LOG, METRICS, REPORTS dir)
-  - Initialize git repo with proper .gitignore
-  - Set up cycle report naming convention (cycle-YYYY-MM-DD-HHMMSS.md)
-  - Validate SSH connectivity and workspace permissions
-  
+- [ ] Create GitHub origin repository (BLOCKED — push failed without remote)
+  - Create repo `nous-research/hermes-autonomous-sim` (GitHub)
+  - Or update origin to an existing repo URL
+  - Push master branch
+  - Verify CI/CD if any
+
+- [x] Bootstrap project infrastructure
+  - Core state files, .gitignore, pre-commit hook, metrics.py, REPORTS/ — DONE
+
 - [ ] Establish baseline metrics tracking
-  - Define core KPIs: tasks completed per cycle, success rate, experiment velocity
-  - Create simple metrics collector script (incremental updates to METRICS.md)
-  - Add metrics validation (checks that values are numeric and monotonic where expected)
-  
-- [ ] Design first micro-experiment
-  - Pick a simple, self-contained agent behavior to test
-  - Define success criteria and measurement method
-  - Create experiment scaffold with configurable parameters
-  - Document in EXPERIMENT_LOG.md upon completion
+  - Metrics collector (metrics.py) is functional — remaining: edge-case validation
+  - Write unit tests for metrics.py (N/A handling, missing metric, invalid delta)
+  - Add `derived` recompute: success_rate = completed/(completed+failed)
+  - Smoke test: run cycle end-to-end with metrics updates
 
 ## MEDIUM PRIORITY
 
@@ -27,9 +25,9 @@
 
 ## LOW PRIORITY / MAINTENANCE
 
-- [ ] Improve reporting format
-- [ ] Repository hygiene
-- [ ] Observability
+- [ ] Write README.md (project overview, quickstart, structure)
+- [ ] Repository hygiene (expand .gitignore if needed)
+- [ ] Observability enhancements
 
 ## BACKLOG
 

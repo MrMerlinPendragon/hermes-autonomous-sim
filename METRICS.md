@@ -5,10 +5,10 @@
 | Metric | Current | Notes |
 |--------|---------|-------|
 | Cycles Completed | 1 | Bootstrap not counted as full cycle |
-| Tasks Completed | 0 | No tasks executed yet |
+| Tasks Completed | 1 | No tasks executed yet |
 | Tasks Failed | 0 | — |
 | Avg Cycle Duration (min) | N/A | First cycle pending |
-| Git Commits | 1 | Awaiting first code commit |
+| Git Commits | 2 | Awaiting first code commit |
 | Experiments Run | 0 | — |
 | Experiments Successful | 0 | — |
 | Decision Accuracy % | N/A | No decisions assessed yet |
