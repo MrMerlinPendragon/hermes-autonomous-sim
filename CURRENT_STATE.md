@@ -97,7 +97,7 @@ D-2026-04-27-03: Remote repo namespace adapted (org unreachable → personal nam
 - **Artifacts:** README.md (168 lines; covers overview, quickstart, structure, metrics, cycle process, governance)
 - **Metrics delta:** Cycles Completed 4 → 5
 - **Validation:** File present, well-formed markdown; consistent with project conventions
-- **Commit:** pending
+- **Commit:** d8f301f (README) + 5752c6e (metrics sync)
 - **Status:** SUCCESS
 
 ---
