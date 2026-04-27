@@ -4,6 +4,18 @@
 
 ## Recent Decisions
 
+### D-2026-04-27-09 — Decision Accuracy Metric Implementation
+
+- **Date:** 2026-04-27
+- **Context:** Decision accountability is a MEDIUM priority backlog item. DECISION_LOG exists but Decision Accuracy % metric shows N/A with no automated linkage.
+- **Decision:** Implement compute-decision-accuracy action in metrics.py as the first concrete step toward decision accountability. The implementation scans DECISION_LOG.md for SUCCESS/RESOLVED outcomes to populate the metric automatically.
+- **Alternatives:** (a) Build full decision indexing system (DECISION_INDEX.md) before updating metric (larger scope), (b) Manual metric updates only (error-prone), (c) External decision tracking tool (overkill).
+- **Rationale:** Minimal viable decision accountability is achieved by linking existing structured decisions to the accuracy metric. This creates immediate, automated insight without over-engineering. Future work can add outcome verification, decision quality scoring, and cross-references to TASK_QUEUE.
+- **Outcome:** SUCCESS — compute-decision-accuracy action created, tested, and executed; Decision Accuracy % computed as 100.0% based on 6/6 positive outcomes; all 8 unit tests pass; changes committed and pushed (6624b9c).
+
+---
+
+
 ### D-2026-04-27-01 — Workspace Location Selection
 - **Date:** 2026-04-27
 - **Context:** Original path /srv/hermes-lab/autonomous-sim was not writable.

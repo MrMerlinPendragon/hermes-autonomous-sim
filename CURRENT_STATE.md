@@ -102,6 +102,19 @@ Git push to origin blocked because target org repo `nous-research/hermes-autonom
 
 ---
 
+
+## CYCLE-009 (completed 2026-04-27 10:28)
+
+- **Task:** Decision accountability — add automated decision accuracy metric
+- **Artifacts:** metrics.py (compute-decision-accuracy action), test_metrics.py (updated to support percentage values), DECISION_LOG.md (entry D-09)
+- **Metrics delta:** Decision Accuracy % N/A → 100.0%, Git Commits 24 (no delta), test suite 8/8
+- **Validation:** All unit tests pass; metric computed successfully from DECISION_LOG; pre-commit hook green
+- **Commit:** 6624b9c feat(metrics): add decision accuracy computation (DOMAIN: DECISION)
+- **Status:** SUCCESS (push to origin confirmed)
+
+---
+
+
 ## Decisions
 
 D-2026-04-27-01: Use ~/autonomous-sim — RESOLVED (SUCCESS)

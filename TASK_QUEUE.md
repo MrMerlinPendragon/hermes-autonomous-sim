@@ -22,6 +22,8 @@
 - [x] Design task schema for ingestion pipeline — CYCLE-007 COMPLETE
 - [x] Create task ingestion pipeline — CYCLE-008 COMPLETE (scripts/add_task.py CLI with full priority support)
 - [ ] Implement decision accountability
+  - Decision Accuracy metric computation (compute-decision-accuracy) — DONE in CYCLE-009
+
 - [ ] Build failure recovery protocol
 
 ## LOW PRIORITY / MAINTENANCE
