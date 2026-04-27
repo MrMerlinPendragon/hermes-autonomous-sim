@@ -19,8 +19,8 @@
 
 ## MEDIUM PRIORITY
 
-- [x] Design task schema for ingestion pipeline — CYCLE-007 IMPLEMENTED
-- [ ] Create task ingestion pipeline
+- [x] Design task schema for ingestion pipeline — CYCLE-007 COMPLETE
+- [x] Create task ingestion pipeline — CYCLE-008 COMPLETE (scripts/add_task.py CLI with full priority support)
 - [ ] Implement decision accountability
 - [ ] Build failure recovery protocol
 

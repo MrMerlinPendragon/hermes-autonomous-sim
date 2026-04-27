@@ -54,5 +54,14 @@
 - **Decision:** Implement first concrete step — create scripts/add_task.py CLI utility to add tasks to TASK_QUEUE.md with priority handling.
 - **Alternatives:** (a) Design full ingestion pipeline spec (too large for one tick), (b) Start decision accountability framework (different MEDIUM), (c) Pick failure recovery (different MEDIUM).
 - **Rationale:** Adds immediate, actionable infrastructure while remaining scoped to a single tick. Establishes pattern for future automated task sources (email, RSS, LLM suggestions).
-- **Outcome:** SUCCESS — add_task.py created, validated, TASK_QUEUE.md updated, metrics synced.
+- **Outcome:** SUCCESS — add_task.py created, validated, TASK_QUEUE.md updated, metrics synced.D-2026-04-27-08 — Task Ingestion Pipeline Finalization
+
+- **Date:** 2026-04-27
+- **Context:** CYCLE-007 delivered scripts/add_task.py CLI utility; CYCLE-008 should finalize ingestion pipeline completion.
+- **Decision:** Mark both ingestion-related tasks as COMPLETE across both design (schema) and implementation (CLI). Sync TASK_QUEUE.md, CURRENT_STATE.md, METRICS.md. Commit all state changes together.
+- **Alternatives:** (a) Wait for more pipeline capabilities (unnecessary — add_task.py is feature-complete for depth-1 ingestion), (b) Split into separate CYCLE-008 and CYCLE-009 (overhead — fine-grained already achieved).
+- **Rationale:** Minimal viable task ingestion is operational (priority-selection, TASK_QUEUE.md update). Recognizing completion now enables moving to next MEDIUM priority (decision accountability or failure recovery).
+- **Outcome:** PENDING — run commit and push.
+
+---
 
