@@ -11,11 +11,11 @@
 - [x] Bootstrap project infrastructure
   - Core state files, .gitignore, pre-commit hook, metrics.py, REPORTS/ — DONE
 
-- [ ] Establish baseline metrics tracking
+- [x] Establish baseline metrics tracking
   - Metrics collector (metrics.py) is functional — remaining: edge-case validation
-  - Write unit tests for metrics.py (N/A handling, missing metric, invalid delta)
-  - Add `derived` recompute: success_rate = completed/(completed+failed)
-  - Smoke test: run cycle end-to-end with metrics updates
+  - Write unit tests for metrics.py (N/A handling, missing metric, invalid delta) — DONE
+  - Add `derived` recompute: success_rate = completed/(completed+failed) — DONE
+  - Smoke test: run cycle end-to-end with metrics updates — DONE
 
 ## MEDIUM PRIORITY
 
