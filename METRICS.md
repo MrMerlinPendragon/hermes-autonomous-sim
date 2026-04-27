@@ -8,7 +8,7 @@
 | Tasks Completed | 2 | README baseline task completed (CYCLE-005) |
 | Tasks Failed | 0 | — |
 | Avg Cycle Duration (min) | N/A | First cycle pending |
-| Git Commits | 15 | Reflects actual repo history after sync |
+| Git Commits | 16 | Reflects actual repo history after sync |
 | Experiments Run | 0 | — |
 | Experiments Successful | 0 | — |
 | Decision Accuracy % | N/A | No decisions assessed yet |
