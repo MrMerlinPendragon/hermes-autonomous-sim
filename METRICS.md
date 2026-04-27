@@ -4,7 +4,7 @@
 
 | Metric | Current | Notes |
 |--------|---------|-------|
-| Cycles Completed | 4 | Four cycles completed; remote operational |
+| Cycles Completed | 5 | Four cycles completed; remote operational |
 | Tasks Completed | 1 | No tasks executed yet |
 | Tasks Failed | 0 | — |
 | Avg Cycle Duration (min) | N/A | First cycle pending |
