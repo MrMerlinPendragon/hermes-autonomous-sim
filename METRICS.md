@@ -4,11 +4,11 @@
 
 | Metric | Current | Notes |
 |--------|---------|-------|
-| Cycles Completed | 5 | Four cycles completed; remote operational |
-| Tasks Completed | 1 | No tasks executed yet |
+| Cycles Completed | 5 | Five cycles completed; documentation baseline established |
+| Tasks Completed | 1 | README baseline task completed (CYCLE-005) |
 | Tasks Failed | 0 | — |
 | Avg Cycle Duration (min) | N/A | First cycle pending |
-| Git Commits | 12 | Awaiting first code commit |
+| Git Commits | 12 | Reflects actual repo history after sync |
 | Experiments Run | 0 | — |
 | Experiments Successful | 0 | — |
 | Decision Accuracy % | N/A | No decisions assessed yet |
